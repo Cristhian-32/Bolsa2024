@@ -41,8 +41,6 @@ class AuthController extends Controller
                 'message' => 'Invalid Credentials',
             ], 400);
         }
-
-
         return $this->respondWithToken($token);
     }
     /**
